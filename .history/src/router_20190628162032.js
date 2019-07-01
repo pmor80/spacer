@@ -11,8 +11,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Search',
       component: Search
+      name: 'Search',
+
     },
     {
       path: '/about',
